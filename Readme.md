@@ -10,8 +10,8 @@ that makes it easy interact with libpostal.
 
 ## Build image and start up container
 ```
-docker build -t libpostal-rest .
-docker run -d -p 8080:8080 libpostal-rest
+docker build -t checkbook_libpostal .
+docker run -d -p 8080:8080 checkbook_libpostal
 ```
 
 ## Build image from specific libpostal git hash
